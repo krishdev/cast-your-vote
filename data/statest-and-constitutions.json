@@ -1,0 +1,1079 @@
+[
+    {
+        "state": "TN",
+        "constituencies": [
+          {
+            "constituency": "Gummidipoondi",
+            "district": "Tiruvallur"
+          },
+          {
+            "constituency": "Ponneri",
+            "district": "Tiruvallur"
+          },
+          {
+            "constituency": "Tiruttani",
+            "district": "Tiruvallur"
+          },
+          {
+            "constituency": "Thiruvallur",
+            "district": "Chennai"
+          },
+          {
+            "constituency": "Poonamallee",
+            "district": "Tiruvallur"
+          },
+          {
+            "constituency": "Avadi",
+            "district": "Tiruvallur"
+          },
+          {
+            "constituency": "Maduravoyal",
+            "district": "Tiruvallur"
+          },
+          {
+            "constituency": "Ambattur",
+            "district": "Tiruvallur"
+          },
+          {
+            "constituency": "Madavaram",
+            "district": "Tiruvallur"
+          },
+          {
+            "constituency": "Thiruvottiyur",
+            "district": "Tiruvallur"
+          },
+          {
+            "constituency": "Radhakrishnan Nagar",
+            "district": "Chennai"
+          },
+          {
+            "constituency": "Perambur",
+            "district": "Chennai"
+          },
+          {
+            "constituency": "Kolathur",
+            "district": "Chennai"
+          },
+          {
+            "constituency": "Villivakkam",
+            "district": "Chennai"
+          },
+          {
+            "constituency": "Thiru. Vi. Ka. Nagar",
+            "district": "Chennai"
+          },
+          {
+            "constituency": "Egmore",
+            "district": "Chennai"
+          },
+          {
+            "constituency": "Royapuram",
+            "district": "Chennai"
+          },
+          {
+            "constituency": "Harbour",
+            "district": "Chennai"
+          },
+          {
+            "constituency": "Chepauk-Thiruvallikeni",
+            "district": "Chennai"
+          },
+          {
+            "constituency": "Thousand Lights",
+            "district": "Chennai"
+          },
+          {
+            "constituency": "Anna Nagar",
+            "district": "Chennai"
+          },
+          {
+            "constituency": "Virugambakkam",
+            "district": "Chennai"
+          },
+          {
+            "constituency": "Saidapet",
+            "district": "Chennai"
+          },
+          {
+            "constituency": "T. Nagar",
+            "district": "Chennai"
+          },
+          {
+            "constituency": "Mylapore",
+            "district": "Chennai"
+          },
+          {
+            "constituency": "Velachery",
+            "district": "Chennai"
+          },
+          {
+            "constituency": "Sholinganallur",
+            "district": "Chengalpattu"
+          },
+          {
+            "constituency": "Alandur",
+            "district": "Kancheepuram"
+          },
+          {
+            "constituency": "Sriperumbudur",
+            "district": "Kancheepuram"
+          },
+          {
+            "constituency": "Pallavaram",
+            "district": "Chengalpattu"
+          },
+          {
+            "constituency": "Tambaram",
+            "district": "Chengalpattu"
+          },
+          {
+            "constituency": "Chengalpattu",
+            "district": "Chengalpattu"
+          },
+          {
+            "constituency": "Tirupporur",
+            "district": "Chengalpattu"
+          },
+          {
+            "constituency": "Cheyyur",
+            "district": "Chengalpattu"
+          },
+          {
+            "constituency": "Maduranthakam",
+            "district": "Chengalpattu"
+          },
+          {
+            "constituency": "Uthiramerur",
+            "district": "Kancheepuram"
+          },
+          {
+            "constituency": "Kancheepuram",
+            "district": "Kancheepuram"
+          },
+          {
+            "constituency": "Arakkonam",
+            "district": "Ranipet"
+          },
+          {
+            "constituency": "Sholingur",
+            "district": "Ranipet"
+          },
+          {
+            "constituency": "Katpadi",
+            "district": "Vellore"
+          },
+          {
+            "constituency": "Ranipet",
+            "district": "Ranipet"
+          },
+          {
+            "constituency": "Arcot",
+            "district": "Ranipet"
+          },
+          {
+            "constituency": "Vellore (Vellore south)",
+            "district": "Vellore"
+          },
+          {
+            "constituency": "Anaikattu",
+            "district": "Vellore"
+          },
+          {
+            "constituency": "K. V. Kuppam",
+            "district": "Vellore"
+          },
+          {
+            "constituency": "Gudiyattam",
+            "district": "Vellore"
+          },
+          {
+            "constituency": "Vaniyambadi",
+            "district": "Tirupattur"
+          },
+          {
+            "constituency": "Ambur",
+            "district": "Tirupattur"
+          },
+          {
+            "constituency": "Jolarpet",
+            "district": "Tirupattur"
+          },
+          {
+            "constituency": "Tirupattur, Vellore",
+            "district": "Tirupattur"
+          },
+          {
+            "constituency": "Uthangarai",
+            "district": "Krishnagiri"
+          },
+          {
+            "constituency": "Bargur",
+            "district": "Krishnagiri"
+          },
+          {
+            "constituency": "Krishnagiri",
+            "district": "Krishnagiri"
+          },
+          {
+            "constituency": "Veppanahalli",
+            "district": "Krishnagiri"
+          },
+          {
+            "constituency": "Hosur",
+            "district": "Krishnagiri"
+          },
+          {
+            "constituency": "Thalli",
+            "district": "Krishnagiri"
+          },
+          {
+            "constituency": "Palacode",
+            "district": "Dharmapuri"
+          },
+          {
+            "constituency": "Pennagaram",
+            "district": "Dharmapuri"
+          },
+          {
+            "constituency": "Dharmapuri",
+            "district": "Dharmapuri"
+          },
+          {
+            "constituency": "Pappireddippatti",
+            "district": "Dharmapuri"
+          },
+          {
+            "constituency": "Harur",
+            "district": "Dharmapuri"
+          },
+          {
+            "constituency": "Chengam",
+            "district": "Tiruvannamalai"
+          },
+          {
+            "constituency": "Tiruvannamalai",
+            "district": "Tiruvannamalai"
+          },
+          {
+            "constituency": "Kilpennathur",
+            "district": "Tiruvannamalai"
+          },
+          {
+            "constituency": "Kalasapakkam",
+            "district": "Tiruvannamalai"
+          },
+          {
+            "constituency": "Polur",
+            "district": "Tiruvannamalai"
+          },
+          {
+            "constituency": "Arani",
+            "district": "Tiruvannamalai"
+          },
+          {
+            "constituency": "Cheyyar",
+            "district": "Tiruvannamalai"
+          },
+          {
+            "constituency": "Vandavasi",
+            "district": "Tiruvannamalai"
+          },
+          {
+            "constituency": "Gingee",
+            "district": "Viluppuram"
+          },
+          {
+            "constituency": "Mailam",
+            "district": "Viluppuram"
+          },
+          {
+            "constituency": "Tindivanam",
+            "district": "Viluppuram"
+          },
+          {
+            "constituency": "Vanur",
+            "district": "Viluppuram"
+          },
+          {
+            "constituency": "Villupuram",
+            "district": "Viluppuram"
+          },
+          {
+            "constituency": "Vikravandi",
+            "district": "Viluppuram"
+          },
+          {
+            "constituency": "Tirukkoyilur",
+            "district": "Viluppuram"
+          },
+          {
+            "constituency": "Ulundurpettai",
+            "district": "Kallakurichi"
+          },
+          {
+            "constituency": "Rishivandiyam",
+            "district": "Kallakurichi"
+          },
+          {
+            "constituency": "Sankarapuram",
+            "district": "Kallakurichi"
+          },
+          {
+            "constituency": "Kallakurichi",
+            "district": "Kallakurichi"
+          },
+          {
+            "constituency": "Gangavalli",
+            "district": "Salem"
+          },
+          {
+            "constituency": "Attur",
+            "district": "Salem"
+          },
+          {
+            "constituency": "Yercaud",
+            "district": "Salem"
+          },
+          {
+            "constituency": "Omalur",
+            "district": "Salem"
+          },
+          {
+            "constituency": "Mettur",
+            "district": "Salem"
+          },
+          {
+            "constituency": "Edappadi",
+            "district": "Salem"
+          },
+          {
+            "constituency": "Sankari",
+            "district": "Salem"
+          },
+          {
+            "constituency": "Salem (West)",
+            "district": "Salem"
+          },
+          {
+            "constituency": "Salem (North)",
+            "district": "Salem"
+          },
+          {
+            "constituency": "Salem (South)",
+            "district": "Salem"
+          },
+          {
+            "constituency": "Veerapandi",
+            "district": "Salem"
+          },
+          {
+            "constituency": "Rasipuram",
+            "district": "Namakkal"
+          },
+          {
+            "constituency": "Senthamangalam",
+            "district": "Namakkal"
+          },
+          {
+            "constituency": "Namakkal",
+            "district": "Namakkal"
+          },
+          {
+            "constituency": "Paramathi Velur",
+            "district": "Namakkal"
+          },
+          {
+            "constituency": "Tiruchengodu",
+            "district": "Namakkal"
+          },
+          {
+            "constituency": "Kumarapalayam",
+            "district": "Namakkal"
+          },
+          {
+            "constituency": "Erode (East)",
+            "district": "Erode"
+          },
+          {
+            "constituency": "Erode (West)",
+            "district": "Erode"
+          },
+          {
+            "constituency": "Modakkurichi",
+            "district": "Erode"
+          },
+          {
+            "constituency": "Dharapuram",
+            "district": "Tiruppur"
+          },
+          {
+            "constituency": "Kangayam",
+            "district": "Tiruppur"
+          },
+          {
+            "constituency": "Perundurai",
+            "district": "Erode"
+          },
+          {
+            "constituency": "Bhavani",
+            "district": "Erode"
+          },
+          {
+            "constituency": "Anthiyur",
+            "district": "Erode"
+          },
+          {
+            "constituency": "Gobichettipalayam",
+            "district": "Erode"
+          },
+          {
+            "constituency": "Bhavanisagar",
+            "district": "Erode"
+          },
+          {
+            "constituency": "Udhagamandalam",
+            "district": "Nilgiris"
+          },
+          {
+            "constituency": "Coonoor",
+            "district": "Nilgiris"
+          },
+          {
+            "constituency": "Gudalur",
+            "district": "Nilgiris"
+          },
+          {
+            "constituency": "Mettupalayam",
+            "district": "Coimbatore"
+          },
+          {
+            "constituency": "Avanashi",
+            "district": "Tiruppur"
+          },
+          {
+            "constituency": "Tiruppur North",
+            "district": "Tiruppur"
+          },
+          {
+            "constituency": "Tiruppur South",
+            "district": "Tiruppur"
+          },
+          {
+            "constituency": "Palladam",
+            "district": "Tiruppur"
+          },
+          {
+            "constituency": "Sulur",
+            "district": "Coimbatore"
+          },
+          {
+            "constituency": "Kavundampalayam",
+            "district": "Coimbatore"
+          },
+          {
+            "constituency": "Coimbatore North",
+            "district": "Coimbatore"
+          },
+          {
+            "constituency": "Thondamuthur",
+            "district": "Coimbatore"
+          },
+          {
+            "constituency": "Coimbatore South",
+            "district": "Coimbatore"
+          },
+          {
+            "constituency": "Singanallur",
+            "district": "Coimbatore"
+          },
+          {
+            "constituency": "Kinathukadavu",
+            "district": "Coimbatore"
+          },
+          {
+            "constituency": "Pollachi",
+            "district": "Coimbatore"
+          },
+          {
+            "constituency": "Valparai",
+            "district": "Coimbatore"
+          },
+          {
+            "constituency": "Udumalaipettai",
+            "district": "Tiruppur"
+          },
+          {
+            "constituency": "Madathukulam",
+            "district": "Tiruppur"
+          },
+          {
+            "constituency": "Palani",
+            "district": "Dindigul"
+          },
+          {
+            "constituency": "Oddanchatram",
+            "district": "Dindigul"
+          },
+          {
+            "constituency": "Athoor",
+            "district": "Dindigul"
+          },
+          {
+            "constituency": "Nilakottai",
+            "district": "Dindigul"
+          },
+          {
+            "constituency": "Natham",
+            "district": "Dindigul"
+          },
+          {
+            "constituency": "Dindigul",
+            "district": "Dindigul"
+          },
+          {
+            "constituency": "Vedasandur",
+            "district": "Dindigul"
+          },
+          {
+            "constituency": "Aravakurichi",
+            "district": "Karur"
+          },
+          {
+            "constituency": "Karur",
+            "district": "Karur"
+          },
+          {
+            "constituency": "Krishnarayapuram",
+            "district": "Karur"
+          },
+          {
+            "constituency": "Kulithalai",
+            "district": "Karur"
+          },
+          {
+            "constituency": "Manapaarai",
+            "district": "Tiruchirappalli"
+          },
+          {
+            "constituency": "Srirangam",
+            "district": "Tiruchirappalli"
+          },
+          {
+            "constituency": "Tiruchirappalli (West)",
+            "district": "Tiruchirappalli"
+          },
+          {
+            "constituency": "Tiruchirappalli (East)",
+            "district": "Tiruchirappalli"
+          },
+          {
+            "constituency": "Thiruverumbur",
+            "district": "Tiruchirappalli"
+          },
+          {
+            "constituency": "Lalgudi",
+            "district": "Tiruchirappalli"
+          },
+          {
+            "constituency": "Manachanallur",
+            "district": "Tiruchirappalli"
+          },
+          {
+            "constituency": "Musiri",
+            "district": "Tiruchirappalli"
+          },
+          {
+            "constituency": "Thuraiyur",
+            "district": "Tiruchirappalli"
+          },
+          {
+            "constituency": "Perambalur",
+            "district": "Perambalur"
+          },
+          {
+            "constituency": "Kunnam",
+            "district": "Perambalur"
+          },
+          {
+            "constituency": "Ariyalur",
+            "district": "Ariyalur"
+          },
+          {
+            "constituency": "Jayankondam",
+            "district": "Ariyalur"
+          },
+          {
+            "constituency": "Tittakudi",
+            "district": "Cuddalore"
+          },
+          {
+            "constituency": "Virudhachalam",
+            "district": "Cuddalore"
+          },
+          {
+            "constituency": "Neyveli",
+            "district": "Cuddalore"
+          },
+          {
+            "constituency": "Panruti",
+            "district": "Cuddalore"
+          },
+          {
+            "constituency": "Cuddalore",
+            "district": "Cuddalore"
+          },
+          {
+            "constituency": "Kurinjipadi",
+            "district": "Cuddalore"
+          },
+          {
+            "constituency": "Bhuvanagiri",
+            "district": "Cuddalore"
+          },
+          {
+            "constituency": "Chidambaram",
+            "district": "Cuddalore"
+          },
+          {
+            "constituency": "Kattumannarkoil",
+            "district": "Cuddalore"
+          },
+          {
+            "constituency": "Sirkazhi",
+            "district": "Mayiladuthurai"
+          },
+          {
+            "constituency": "Mayiladuthurai",
+            "district": "Mayiladuthurai"
+          },
+          {
+            "constituency": "Poompuhar",
+            "district": "Mayiladuthurai"
+          },
+          {
+            "constituency": "Nagapattinam",
+            "district": "Nagapattinam"
+          },
+          {
+            "constituency": "Kilvelur",
+            "district": "Nagapattinam"
+          },
+          {
+            "constituency": "Vedaranyam",
+            "district": "Nagapattinam"
+          },
+          {
+            "constituency": "Thiruthuraipoondi",
+            "district": "Thiruvarur"
+          },
+          {
+            "constituency": "Mannargudi",
+            "district": "Thiruvarur"
+          },
+          {
+            "constituency": "Thiruvarur",
+            "district": "Thiruvarur"
+          },
+          {
+            "constituency": "Nannilam",
+            "district": "Thiruvarur"
+          },
+          {
+            "constituency": "Thiruvidaimarudur",
+            "district": "Thanjavur"
+          },
+          {
+            "constituency": "Kumbakonam",
+            "district": "Thanjavur"
+          },
+          {
+            "constituency": "Papanasam",
+            "district": "Thanjavur"
+          },
+          {
+            "constituency": "Thiruvaiyaru",
+            "district": "Thanjavur"
+          },
+          {
+            "constituency": "Thanjavur",
+            "district": "Thanjavur"
+          },
+          {
+            "constituency": "Orathanadu",
+            "district": "Thanjavur"
+          },
+          {
+            "constituency": "Pattukkottai",
+            "district": "Thanjavur"
+          },
+          {
+            "constituency": "Peravurani",
+            "district": "Thanjavur"
+          },
+          {
+            "constituency": "Gandharvakottai",
+            "district": "Pudukkottai"
+          },
+          {
+            "constituency": "Viralimalai",
+            "district": "Pudukkottai"
+          },
+          {
+            "constituency": "Pudukkottai",
+            "district": "Pudukkottai"
+          },
+          {
+            "constituency": "Thirumayam",
+            "district": "Pudukkottai"
+          },
+          {
+            "constituency": "Alangudi",
+            "district": "Pudukkottai"
+          },
+          {
+            "constituency": "Aranthangi",
+            "district": "Pudukkottai"
+          },
+          {
+            "constituency": "Karaikudi",
+            "district": "Sivaganga"
+          },
+          {
+            "constituency": "Tiruppattur, Sivaganga",
+            "district": "Sivaganga"
+          },
+          {
+            "constituency": "Sivaganga",
+            "district": "Sivaganga"
+          },
+          {
+            "constituency": "Manamadurai, (Ilayangudi merged in 2007)",
+            "district": "Sivaganga"
+          },
+          {
+            "constituency": "Melur",
+            "district": "Madurai"
+          },
+          {
+            "constituency": "Madurai East",
+            "district": "Madurai"
+          },
+          {
+            "constituency": "Sholavandan",
+            "district": "Madurai"
+          },
+          {
+            "constituency": "Madurai North",
+            "district": "Madurai"
+          },
+          {
+            "constituency": "Madurai South",
+            "district": "Madurai"
+          },
+          {
+            "constituency": "Madurai Central",
+            "district": "Madurai"
+          },
+          {
+            "constituency": "Madurai West",
+            "district": "Madurai"
+          },
+          {
+            "constituency": "Thiruparankundram",
+            "district": "Madurai"
+          },
+          {
+            "constituency": "Tirumangalam",
+            "district": "Madurai"
+          },
+          {
+            "constituency": "Usilampatti, (Sedapatti merged in 2007)",
+            "district": "Madurai"
+          },
+          {
+            "constituency": "Andipatti",
+            "district": "Theni"
+          },
+          {
+            "constituency": "Periyakulam",
+            "district": "Theni"
+          },
+          {
+            "constituency": "Bodinayakanur",
+            "district": "Theni"
+          },
+          {
+            "constituency": "Cumbum",
+            "district": "Theni"
+          },
+          {
+            "constituency": "Rajapalayam",
+            "district": "Virudhunagar"
+          },
+          {
+            "constituency": "Srivilliputhur",
+            "district": "Virudhunagar"
+          },
+          {
+            "constituency": "Sattur",
+            "district": "Virudhunagar"
+          },
+          {
+            "constituency": "Sivakasi",
+            "district": "Virudhunagar"
+          },
+          {
+            "constituency": "Virudhunagar",
+            "district": "Virudhunagar"
+          },
+          {
+            "constituency": "Aruppukkottai",
+            "district": "Virudhunagar"
+          },
+          {
+            "constituency": "Tiruchuli",
+            "district": "Virudhunagar"
+          },
+          {
+            "constituency": "Paramakudi",
+            "district": "Ramanathapuram"
+          },
+          {
+            "constituency": "Tiruvadanai",
+            "district": "Ramanathapuram"
+          },
+          {
+            "constituency": "Ramanathapuram",
+            "district": "Ramanathapuram"
+          },
+          {
+            "constituency": "Mudhukulathur",
+            "district": "Ramanathapuram"
+          },
+          {
+            "constituency": "Vilathikulam",
+            "district": "Thoothukudi"
+          },
+          {
+            "constituency": "Thoothukudi",
+            "district": "Thoothukudi"
+          },
+          {
+            "constituency": "Tiruchendur",
+            "district": "Thoothukudi"
+          },
+          {
+            "constituency": "Thiruvaikundam",
+            "district": "Thoothukudi"
+          },
+          {
+            "constituency": "Ottapidaram",
+            "district": "Thoothukudi"
+          },
+          {
+            "constituency": "Kovilpatti",
+            "district": "Thoothukudi"
+          },
+          {
+            "constituency": "Sankarankovil",
+            "district": "Tenkasi"
+          },
+          {
+            "constituency": "Vasudevanallur",
+            "district": "Tenkasi"
+          },
+          {
+            "constituency": "Kadayanallur",
+            "district": "Tenkasi"
+          },
+          {
+            "constituency": "Tenkasi",
+            "district": "Tenkasi"
+          },
+          {
+            "constituency": "Alangulam",
+            "district": "Tenkasi"
+          },
+          {
+            "constituency": "Tirunelveli",
+            "district": "Tirunelveli"
+          },
+          {
+            "constituency": "Ambasamudram",
+            "district": "Tirunelveli"
+          },
+          {
+            "constituency": "Palayamkottai",
+            "district": "Tirunelveli"
+          },
+          {
+            "constituency": "Nanguneri",
+            "district": "Tirunelveli"
+          },
+          {
+            "constituency": "Radhapuram",
+            "district": "Tirunelveli"
+          },
+          {
+            "constituency": "Kanniyakumari",
+            "district": "Kanniyakumari"
+          },
+          {
+            "constituency": "Nagercoil",
+            "district": "Kanniyakumari"
+          },
+          {
+            "constituency": "Colachal",
+            "district": "Kanniyakumari"
+          },
+          {
+            "constituency": "Padmanabhapuram",
+            "district": "Kanniyakumari"
+          },
+          {
+            "constituency": "Vilavancode",
+            "district": "Kanniyakumari"
+          },
+          {
+            "constituency": "Killiyoor",
+            "district": "Kanniyakumari"
+          }
+        ],
+        "majorParties": [
+            {"id": 1, "party":"DMK/CONGRESS Alliance"},
+            {"id": 2, "party":"ADMK/BJP Alliance"},
+            {"id": 3, "party":"Naam Tamilar NTK"},
+            {"id": 4, "party":"Makkal Nidhi Maiyam MNM"},
+            {"id": 5, "party":"AMMK Alliance"}
+        ]
+    },
+    {
+        "state": "PY",
+        "constituencies": [
+            {
+                "constituency": "Mannadipet",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Thirubuvanai",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Ossudu",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Mangalam",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Villianur",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Ozhukarai",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Kadirkamam",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Indira Nagar",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Thattanchavady",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Kamaraj Nagar",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Lawspet",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Kalapet",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Muthialpet",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Raj Bhavan",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Oupalam",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Orleampeth",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Nellithope",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Mudaliarpet",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Ariankuppam",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Manavely",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Embalam",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Nettapakkam",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Bahour",
+                "district": "Puducherry"
+            },
+            {
+                "constituency": "Nedungadu",
+                "district": "Karaikal"
+            },
+            {
+                "constituency": "Thirunallar",
+                "district": "Karaikal"
+            },
+            {
+                "constituency": "Karaikal North",
+                "district": "Karaikal"
+            },
+            {
+                "constituency": "Karaikal South",
+                "district": "Karaikal"
+            },
+            {
+                "constituency": "Neravy T R Pattinam",
+                "district": "Karaikal"
+            },
+            {
+                "constituency": "Mahe",
+                "district": "Mahe"
+            },
+            {
+                "constituency": "Yanam",
+                "district": "Yanam"
+            }            
+        ],
+        "majorParties": [
+            {"id": 1, "party":"INC Alliance"},
+            {"id": 2, "party":"AINRC Alliance"}
+        ]
+    }
+]
