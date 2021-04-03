@@ -19,7 +19,7 @@ gulp.task ('sass', function () {
     return gulp.src(srcScss)
         .pipe(sass())
         .pipe(gulp.dest(destScss))
-        .pipe(browserSync.stream())
+        // .pipe(browserSync.stream())
 })
 
 gulp.task ('svgsprite', function () {
@@ -40,13 +40,13 @@ gulp.task ('svgsprite', function () {
 // SCSS files to watch
 gulp.task('serve', gulp.series(['sass', 'svgsprite'], function() {
 
-  browserSync.init({
-      server: "./",
-      port: 8080
-  });
+  // browserSync.init({
+  //     server: "./",
+  //     port: 8080
+  // });
 
   gulp.watch('assets/scss/**/*.scss',  gulp.series(['sass', 'svgsprite']));
-  gulp.watch("*.html").on('change', browserSync.reload);
-  gulp.watch('assets/scripts/**/*.js').on('change', browserSync.reload); 
+  //gulp.watch("*.html").on('change', browserSync.reload);
+  //gulp.watch('assets/scripts/**/*.js').on('change', browserSync.reload); 
   // Other watchers
 }));
