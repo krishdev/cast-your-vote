@@ -5,24 +5,32 @@ $c-name: '.c-Main-nav';
     width: 100%;
     padding-left: 1em;
     padding-right: 1em;
+    box-sizing: border-box;
+    display: flex;
 
     @include breakpoint ($bp-medium) {
-        padding-top: 1em;
         padding-left: 1.5em;
         padding-right: 1.5em;
+        align-items: center;
+        justify-content: space-between;
     }
 
     @include breakpoint ($bp-large) {
-        padding-top: 1.5em;
         padding-left: 2em;
         padding-right: 2em;
     }
+}
 
-    @include breakpoint ($bp-xtra-large) {
-        padding-top: 2em;
-        padding-left: 3em;
-        padding-right: 3em;
-    }
+#{$c-name}-img__logo {
+    width: 7.25em;
+}
+
+#{$c-name}-img__logo img {
+    width: 100%;
+}
+
+.c-Section--blue .nav-link {
+    color: $white;
 }
 
 #{$c-name}__wrapper {
@@ -64,8 +72,9 @@ $c-name: '.c-Main-nav';
 
 .nav-link {
     color: $black;
-    font-size: 1em;
+    font-size: .875rem;
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 .nav-link__drp {
@@ -109,6 +118,10 @@ $c-name: '.c-Main-nav';
     align-items: center;
     justify-content: space-between;
     width: 100%;
+
+    @include breakpoint ($bp-medium) {
+        width: auto;
+    }
 }
 
 #{$c-name}-sub__item {
@@ -128,6 +141,7 @@ $c-name: '.c-Main-nav';
         }
     }
 }
+
 li#{$c-name}__item#{$c-name}-sub__item {
     position: relative;
 }
@@ -147,9 +161,13 @@ li#{$c-name}__item#{$c-name}-sub__item {
     height: 2px;
     width: 24px;
     margin-bottom: 4px;
-    background-color: #3f51b5;
+    background-color: #fff;
     transition: all .3s;
     position: relative;
+}
+
+.c-Main-nav--plain :is(.o-Hambrg__line1, .o-Hambrg__line2, .o-Hambrg__line3) {
+    background-color: #3f51b5;
 }
   
 .show .o-Hambrg__line1 {

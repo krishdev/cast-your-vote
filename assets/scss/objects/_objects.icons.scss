@@ -30,3 +30,13 @@
 .o-Icon-svg--inperson {
     background-image: url($inperson-icon);
 }
+
+.o-Icon.c-Section__icon-wrapper {
+    width: 3.75em;
+    height: 3.75em;
+}
+
+svg.icon {
+    width: inherit;
+    height: inherit;
+}

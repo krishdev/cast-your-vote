@@ -23,6 +23,7 @@ gulp.task ('sass', function () {
 })
 
 gulp.task ('svgsprite', function () {
+  console.log('entering svg');
   return gulp.src('assets/icons/svg/*.svg')
     .pipe(svgSprite({
       mode: {
