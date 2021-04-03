@@ -35,6 +35,8 @@ gulp.task ('svgsprite', function () {
     .pipe(gulp.dest(destSvg));
 })
 
+
+
 // SCSS files to watch
 gulp.task('serve', gulp.series(['sass', 'svgsprite'], function() {
 
