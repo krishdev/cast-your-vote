@@ -1,0 +1,21 @@
+{
+  "name": "caste-your-vote",
+  "version": "1.0.0",
+  "description": "Anyone",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vote remote",
+    "online"
+  ],
+  "author": "Krishna",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-svg-sprite": "^1.5.0"
+  }
+}

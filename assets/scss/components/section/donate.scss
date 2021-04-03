@@ -1,0 +1,98 @@
+.c-Donate__container {
+    text-align: center;
+    border-bottom: 1px solid #dadada;
+    box-sizing: border-box;
+
+    @include breakpoint ($bp-small) {
+        display: grid;
+        grid-template-areas: 'main right';
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+.c-Donate {
+    border: 1px solid #dadada;
+    margin: 3em;
+}
+
+.c-Donate__desc h3 {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: .875em;
+}
+
+.c-Donate__container:last-child {
+    border-bottom: 0;
+}
+
+.c-Donate__desc {
+    padding: 3em 1em;
+    grid-area: main;
+    background-color: #eaeae8;
+    border-bottom: 1px solid #dadada;
+
+    @include breakpoint ($bp-small) {
+        border-right: 1px solid #dadada;
+        border-bottom: 0;
+    }
+}
+
+.c-Donate__btn h3 {
+    margin-top: 0;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.c-Donate__btn .o-Btn {
+    width: 130px;
+    box-sizing: border-box;
+    padding: .75em;
+    font-size: .75rem;
+}
+
+.o-Btn--white {
+    color: #333;
+    background-color: white;
+}
+
+.c-Donate__desc p {
+    font-size: .75rem;
+    color: #6b6b6b;
+}
+
+.c-Donate__desc a {
+    font-size: .75rem;
+}
+
+.c-Donate__container:last-child .c-Donate__desc {
+    background-color: #46b19d;
+    color: #fff;
+}
+
+.c-Donate__container:last-child .c-Donate__desc p {
+    color: #fff;
+}
+
+.c-Donate__container:last-child .c-Donate__desc a {
+    color: #fff;
+}
+
+.c-Donate__container:first-child .c-Donate__btn {
+    background-color: #c25b4c;
+}
+
+.c-Donate__container:last-child .c-Donate__btn {
+    background-color: #254053;
+}
+
+.c-Donate__btn {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 1em;
+
+    @include breakpoint ($bp-small) {
+        padding: 0;
+    }
+}

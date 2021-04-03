@@ -1,0 +1,49 @@
+.c-Two-Columns {
+    margin: 3em 1em 2em;
+
+    @include breakpoint ($bp-medium) {
+        margin: 3em 3em 2em;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
+
+.c-Articles-cat {
+    @include breakpoint ($bp-medium) {
+        width: 30%;
+    }
+    @include breakpoint ($bp-md-large) {
+        width: 20%;
+    }
+}
+
+.c-Articles {
+    @include breakpoint ($bp-medium) {
+        width: 70%;
+    }
+    @include breakpoint ($bp-md-large) {
+        width: 80%;
+    }
+}
+
+.c-Articles-cat__container {
+    list-style: circle;
+    font-size: .75rem;
+    line-height: 2;
+    color: #6b6b6b;
+    padding: 0 0 0 .5em;
+}
+
+.c-Articles-cat__container a {
+    color: #6b6b6b;
+}
+
+.c-Articles-cat h3 {
+    font-size: .875em;
+}
+
+.c-Articles p {
+    font-size: .875rem;
+    line-height: 1.5;
+}

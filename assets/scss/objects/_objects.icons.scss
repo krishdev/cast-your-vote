@@ -1,0 +1,32 @@
+.o-Icon--btn.o-Icon--link svg {
+    display: inline-block;
+    width: 10px;
+    height: 12px;
+    margin-left: .5em;
+}
+
+.o-Icon--btn.o-Icon--link {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.o-Icon-svg {
+    width: 3em;
+    height: 3em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.o-Icon-svg--video {
+    background-image: url($video-icon);
+}
+
+.o-Icon-svg--group {
+    background-image: url($group-icon);
+}
+
+.o-Icon-svg--inperson {
+    background-image: url($inperson-icon);
+}

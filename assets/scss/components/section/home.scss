@@ -1,0 +1,221 @@
+$c-name: '.c-Home';
+
+#{$c-name}__banner {
+    width: 100%;
+}
+
+.c-Block-mid {
+    margin-top: 2em;
+
+    @include breakpoint ($bp-medium) {
+        margin-top: 4em;
+    }
+}
+
+.c-Block-two {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+
+    @include breakpoint ($bp-medium) {
+        margin-top: 4em;
+        flex-flow: row nowrap;
+    }
+}
+
+a.o-Btn-link.o-Icon--link {
+    justify-content: flex-end;
+}
+
+.c-Block-two__icons-wrap {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 1.875em;
+
+    @include breakpoint ($bp-medium) {
+        padding-top: 0;
+    }
+
+    @include breakpoint ($bp-large) {
+        width: 49%;
+        flex-flow: row wrap;
+    }
+}
+
+.c-Block-two__title-desc {
+    width: 100%;
+
+    @include breakpoint ($bp-large) {
+        width: 49%;
+    }
+}
+
+.c-Block-two__title-desc h3 {
+    font-size: 2em;
+    text-decoration: underline;
+    text-decoration-color: #e5fbfb;
+    text-decoration-thickness: 7px;
+}
+
+.c-Block-two__title-desc p {
+    font-size: .875em;
+    color: #6b6b6b;
+}
+
+.c-Block-four {
+    background: url('/assets/images/page-view/home-main-bottom-center.png') no-repeat center;
+    background-size: contain;
+    padding: 4em 0em;
+}
+
+.c-Block__articles {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.c-Article {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px 0px rgb(167, 167, 167);
+    box-sizing: border-box;
+    padding: 1em;
+    margin-bottom: .5em;
+    background: white;
+    margin-right: 7px;
+
+    @include breakpoint ($bp-medium) {
+        width: 47%;
+    }
+
+    @include breakpoint ($bp-large) {
+        width: 32%;
+    }
+}
+
+.c-Article header {
+    font-size: .75rem;
+}
+
+.c-Article p {
+    font-size: .875rem;
+    color: #6b6b6b;
+}
+
+.c-Article h4 {
+    font-size: .875em;
+    color: #333;
+}
+
+.c-Testimonial a {
+    color: #333;
+}
+
+.c-Testimonial header {
+    font-weight: 600;
+    font-size: .875em;
+}
+
+.c-Testimonial p {
+    font-size: .875rem;
+    color: #6b6b6b;
+}
+
+.c-Block__testimonials {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-flow: column;
+
+    @include breakpoint ($bp-medium) {
+        flex-flow: row nowrap;
+    }
+}
+
+.c-Testimonial {
+    margin-right: .5em;
+    margin-bottom: .5em;
+    box-sizing: border-box;
+    box-shadow: -2px 1px 6px 2px #eaeaea;
+    padding: 1em;
+    border-radius: 4px;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, .75);
+}
+
+.c-Block-five:before {
+    content: '';
+    display: inline-block;
+    background-image: url('/assets/images/page-view/quote-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 7em;
+    height: 7em;
+    position: absolute;
+    left: 0;
+    top: -77px;
+
+    @include breakpoint ($bp-medium) {
+        top: -57px;
+    }
+}
+
+.c-Block-five:after {
+    content: '';
+    display: inline-block;
+    background-image: url('/assets/images/page-view/guy-main-yoga.png');
+    width: 15em;
+    height: 16em;
+    position: absolute;
+    right: 0;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 0px;
+
+    @include breakpoint ($bp-medium) {
+        top: -78px;
+    }
+}
+
+
+.c-Block-five {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-Contact__item a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    line-height: 1;
+    margin-bottom: 2em;
+    color: #333;
+}
+
+.c-Contact__item a svg {
+    width: 1em;
+    height: 1em;
+    margin-right: .75em;
+}
+
+.c-Contact__item {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column;
+    justify-content: flex-start;
+    font-size: .875rem;
+}
+
+.c-Contact__list p {
+    font-size: .875em;
+    margin-top: 0;
+}

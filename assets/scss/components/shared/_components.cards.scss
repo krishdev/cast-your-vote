@@ -1,0 +1,67 @@
+.c-Cards {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: .875em;
+    padding: 1em;
+    box-sizing: border-box;
+    color: #6b6b6b;
+    border: 1px solid #dadada;
+
+    @include breakpoint ($bp-small) {
+        flex-flow: row nowrap;
+    }
+    
+    @include breakpoint ($bp-large) {
+        flex-flow: column;
+        border: 0;
+        box-shadow: 4px 0px 15px 2px rgb(232, 240, 245);
+        width: 48%;
+    }
+}
+
+.c-Cards:nth-child(3),
+.c-Cards:nth-child(4) {
+    @include breakpoint ($bp-large) {
+        margin-bottom: 0;
+    }
+}
+
+.c-Cards:nth-child(2n) {
+    @include breakpoint ($bp-large) {
+        box-shadow: -4px 0px 15px 2px rgb(232, 240, 245);
+    }
+}
+
+.c-Cards__icon {
+    @include breakpoint ($bp-small) {
+        padding-right: 1em;
+    }
+    @include breakpoint ($bp-large) {
+        padding-right: 0;
+    }
+}
+
+.c-Cards__icon svg {
+    width: 2.875em;
+    height: 2.875em;
+    display: inline-block;
+}
+
+.c-Cards__desc h4 {
+    font-size: .875em;
+    color: #333;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+
+.c-Cards__desc p {
+    font-size: .75rem;
+}
+
+.c-Cards__link {
+    font-size: .75rem;
+    text-transform: uppercase;
+    text-align: right;
+}

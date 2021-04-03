@@ -1,0 +1,9 @@
+
+/**
+* Media queries Breakpoint
+*/
+@mixin breakpoint ($width...) {
+    @media (#{$width}) {
+        @content;
+    }
+}

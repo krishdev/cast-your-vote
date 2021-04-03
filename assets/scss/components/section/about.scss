@@ -1,0 +1,70 @@
+.c-About-intro h3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include breakpoint ($bp-medium) {
+        max-width: 15em;
+    }
+}
+
+.c-About-intro {
+    margin-top: 3em;
+}
+
+.c-About-intro p {
+    font-size: .875rem;
+    text-align: center;
+    color: #6b6b6b;
+}
+
+.c-About-intro__class {
+    margin-top: 3em;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    @include breakpoint ($bp-medium) {
+        flex-flow: row nowrap;
+    }
+}
+
+.c-Intro-class {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-Intro-class h4 {
+    font-size: .875em;
+    margin-bottom: 0;
+}
+
+.c-Intro-class p {
+    font-size: .75rem;
+}
+
+.c-Intro-class:after {
+    content: "";
+    display: block;
+    width: 30%;
+    height: 1px;
+    background-color: #2ecc71;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.c-About-desc {
+    padding: 1em 1em;
+    background-color: #e8f0f5;
+}
+
+.c-About-desc__para {
+    font-size: .875em;
+}
+
+.c-About-desc h3 {
+    text-decoration-color: #0d5d93;
+}
