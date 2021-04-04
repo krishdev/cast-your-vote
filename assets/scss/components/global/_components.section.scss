@@ -4,7 +4,13 @@ $c-name: '.c-Section';
     min-height: 100vh;
 
     &--blue {
-        background-color: $cast-blue;
+        background: rgb(42,167,247);
+        background: linear-gradient(180deg, rgba(42,167,247,1) 0%, rgba(70,144,229,1) 35%, rgba(99,120,211,1) 100%);
+    }
+
+    &--green {
+        background: rgb(68,230,160);
+        background: linear-gradient(180deg, rgba(68,230,160,1) 0%, rgba(46,215,142,1) 35%, rgba(0,201,114,1) 100%);
     }
 }
 
@@ -16,7 +22,7 @@ $c-name: '.c-Section';
     flex-flow: column;
     color: $white;
     text-align: center;    
-    height: calc(100vh - 14em);
+    min-height: calc(100vh - 14em);
     
     @include breakpoint ($bp-medium) {
         width: 45em;
@@ -35,6 +41,14 @@ $c-name: '.c-Section';
 
 #{$c-name}__img--verify-email {
     background-image: url("/assets/images/page-view/verify-email.png");
+}
+
+#{$c-name}__img--state-emblem {
+    background-image: url("/assets/images/page-view/state-emblem-india.png");
+}
+
+#{$c-name}__img--logo {
+    background-image: url("/assets/images/meta/logo-white.png");
 }
 
 
@@ -59,4 +73,85 @@ $c-name: '.c-Section';
 #{$c-name}__content h3 {
     margin-bottom: .5em;
     color: #333;
+}
+
+#{$c-name}--blue #{$c-name}__content h3 {
+    color: white;
+}
+
+#{$c-name}--blue #{$c-name}__content p {
+    color: #dadada;
+}
+
+
+.c-Section__field-icon {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.c-Section-field__icon {
+    width: 2em;
+    height: 3.5em;
+}
+
+.c-Section-field__icon img {
+    width: 100%;
+}
+
+.c-Section-field__label {
+    text-transform: uppercase;
+    padding: 1em 0;
+}
+
+.c-Section__multiselect { 
+    width: 22em;
+    margin-bottom: 1.5em;
+}
+
+.c-Section__poll-cadidates {
+    text-align: left;
+    padding-top: 1em;
+    font-size: .875rem;
+}
+
+.c-Section-poll__candidate {
+    background-color: #89bceb;
+    padding: .75em 1em;
+    border-radius: 40px;
+    cursor: pointer;
+    margin: 1em 0;
+    min-width: 18em;
+    transition: .3s ease all;
+}
+
+.c-Section__img--logo {
+    height: 5em;
+    width: 11em;
+}
+
+.c-Section-poll__candidate:first-child {margin-top: 0;}
+
+.c-Vote .c-Section__container {
+    min-height: calc(100vh - 7em);
+}
+
+.c-Section-poll__candidate.selected {
+    background-color: #fafafa;
+    color: #89bceb;
+    position: relative;
+}
+
+.c-Section-poll__candidate.selected:after {
+    position: absolute;
+    right: 16px;
+    top: 12px;
+    content: '';
+    background-image: url("/assets/images/page-view/checkmark-green.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 1em;
+    height: 1em;
 }

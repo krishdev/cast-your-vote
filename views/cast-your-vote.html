@@ -1,0 +1,72 @@
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, shrink-to-fit=no">
+    <!-- META OG IMAGES -->
+    <title>2021 Assembly Elections - ElectYourFuture</title>
+    <meta name="description" content="Safe and secure website to poll your votes online for the upcomning Indian Assembly elections.">
+    <meta name="keywords" content="online election polling, tn election, tamilnadu election, pondicherry election, online voting">
+    <link rel="stylesheet" href="/assets/css/common.css?v=2021040301">
+    <link rel="stylesheet" href="/assets/css/home.css?v=2021040301">
+</head>
+<body>
+    <!-- <div id="app"></div> -->
+    <div id="app" class="c-Section c-Home c-Section--blue">
+        <div class="c-Main-nav">
+            <div class="c-Main-nav__logo">
+                <div class="c-Main-nav-img__logo">
+                    <a href="/"><img src="/assets/images/meta/logo-white.png" alt="elect-your-future-logo"></a>
+                </div>
+                <div id="hamburger-menu">
+                    <div class="o-Hambrg__line1"></div>
+                    <div class="o-Hambrg__line2"></div>
+                    <div class="o-Hambrg__line3"></div>
+                </div>
+            </div>
+            <ul class="c-Main-nav__items">
+                <li class="c-Main-nav__item">
+                    <a href="/" class="nav-link">Home</a>
+                </li>
+                <li class="c-Main-nav__item">
+                    <a href="/who-we-are/" class="nav-link">Who we are?</a>
+                </li>
+                <li class="c-Main-nav__item">
+                    <a href="/contact-us/" class="nav-link">Contact</a>
+                </li>
+                <li class="c-Main-nav__item">
+                    <a href="/results/" class="nav-link">Results</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="c-Section__container">
+            <div class="c-Section__img-wrapper">
+                <div class="c-Section__img c-Section__img--logo"></div>
+            </div>
+            <div class="c-Section__content">
+                <h3>Tamil Nadu</h3>
+                <p>Radhakrishnan Nagar - Chennai</p>
+            </div>
+            <div class="c-Section__poll-wrapper">
+                <label>Choose your candidate</label>
+                <div v-cloak class="c-Section__poll-cadidates">
+                    <div class="c-Section-poll__candidate" v-for="(candi, inx) in allCandidates" :class="{'selected': candi.party === voteTo}" @click="voteTo = candi.party">
+                        <span>{{inx+1}}</span> {{candi.party}}
+                    </div>
+                </div>
+            </div>
+            <button type="button" @click="voteCasted" class="o-Btn o-Btn--animate o-Btn--white o-Btn--hyperion">
+                <span>
+                    <span>Submit</span>
+                </span>
+            </button>
+        </div>
+    </div>
+    <!-- <script src="/dist/main.js?v=2021040301"></script> -->
+    <script src="/assets/scripts/svg4everybody.min.js?v=2021040301"></script>
+    
+</body>
+</html>

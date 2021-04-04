@@ -39,7 +39,7 @@ a#{$o-name}-link.o-Icon--link {
     background-color: $white;
 }
 
-.c-Section--blue #{$o-name}--white {
+:is(.c-Section--blue, .c-Section--green) #{$o-name}--white {
     color: $cast-blue;
 }
 
@@ -63,7 +63,7 @@ a#{$o-name}-link.o-Icon--link {
 	font-family: input-mono-narrow, monospace;
 	font-weight: 500;
 	padding: 1rem 1.5rem;
-	border: 1px solid $white;
+	// border: 1px solid $white;
 	overflow: hidden;
 	color: white;
 }
@@ -112,6 +112,10 @@ a#{$o-name}-link.o-Icon--link {
     background-color: $cast-blue;
     color: $white;
 }
+
+#{$o-name}--blue#{$o-name}--hyperion::before {
+    background-color: #03a9f4;
+} 
 
 #{$o-name}--hyperion:hover::before {
 	transform: scale3d(0,1,1);
