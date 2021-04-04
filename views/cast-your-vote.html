@@ -11,6 +11,10 @@
     <meta name="keywords" content="online election polling, tn election, tamilnadu election, pondicherry election, online voting">
     <link rel="stylesheet" href="/assets/css/common.css?v=2021040301">
     <link rel="stylesheet" href="/assets/css/home.css?v=2021040301">
+    <script>
+        var glObj = {};
+        glObj.state = 'TN';
+    </script>
 </head>
 <body>
     <!-- <div id="app"></div> -->
@@ -46,6 +50,10 @@
             <div class="c-Section__img-wrapper">
                 <div class="c-Section__img c-Section__img--logo"></div>
             </div>
+            <form id="castForm" action="/cast-your-vote/" method="POST">
+                <input type="hidden" name="partyId" :value="voteTo">
+                <input type="hidden" name="constituencyId" :value="constituencyId">
+            </form>
             <div class="c-Section__content">
                 <h3>Tamil Nadu</h3>
                 <p>Radhakrishnan Nagar - Chennai</p>
@@ -57,6 +65,9 @@
                         <span>{{inx+1}}</span> {{candi.party}}
                     </div>
                 </div>
+            </div>
+            <div v-cloak class="o-Form-invalid" v-if="!isValid && formSubmitted">
+                <p>To cast please select your favorite alliance.</p>
             </div>
             <button type="button" @click="voteCasted" class="o-Btn o-Btn--animate o-Btn--white o-Btn--hyperion">
                 <span>

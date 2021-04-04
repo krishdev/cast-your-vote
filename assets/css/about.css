@@ -76,6 +76,75 @@ svg.icon {
   width: inherit;
   height: inherit; }
 
+.success-icon {
+  display: inline-block;
+  width: 8em;
+  height: 8em;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 4px solid #96df8f;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  transform-origin: center;
+  animation: showSuccess 180ms ease-in-out;
+  transform: scale(1); }
+
+.success-icon__tip, .success-icon__long {
+  display: block;
+  position: absolute;
+  height: 4px;
+  background-color: #96df8f;
+  border-radius: 10px; }
+
+.success-icon__tip {
+  width: 2.4em;
+  top: 4.3em;
+  left: 1.4em;
+  transform: rotate(45deg);
+  animation: tipInPlace 300ms ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 180ms;
+  visibility: hidden; }
+
+.success-icon__long {
+  width: 4em;
+  transform: rotate(-45deg);
+  top: 3.70em;
+  left: 2.75em;
+  animation: longInPlace 140ms ease-in-out;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  animation-delay: 440ms; }
+
+@keyframes showSuccess {
+  from {
+    transform: scale(0); }
+  to {
+    transform: scale(1); } }
+
+@keyframes tipInPlace {
+  from {
+    width: 0em;
+    top: 0em;
+    left: -1.6em; }
+  to {
+    width: 2.4em;
+    top: 4.3em;
+    left: 1.4em;
+    visibility: visible; } }
+
+@keyframes longInPlace {
+  from {
+    width: 0em;
+    top: 5.1em;
+    left: 3.2em; }
+  to {
+    width: 4em;
+    top: 3.70em;
+    left: 2.75em;
+    visibility: visible; } }
+
 fieldset[disabled] .multiselect {
   pointer-events: none; }
 
@@ -535,7 +604,8 @@ a.o-Btn-link.o-Icon--link {
   overflow: hidden; }
 
 .o-Btn--hyperion:hover > span > span {
-  animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s; }
+  animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
+  color: white !important; }
 
 @keyframes MoveUpInitial {
   to {
@@ -577,6 +647,24 @@ input[type='email'].o-Form-control {
 input[type='email'].o-Form-control:focus {
   outline: none;
   border-bottom-color: #909090; }
+
+.o-Btn:disabled:before {
+  background-color: #b0afaf !important;
+  cursor: not-allowed; }
+
+.o-Btn:disabled:hover {
+  transform: none;
+  transform-origin: initial;
+  animation: none; }
+
+.o-Form-invalid {
+  color: red;
+  text-align: left; }
+
+.c-Section--blue .o-Form-invalid {
+  color: #f01c1c;
+  text-align: left;
+  text-shadow: 1px 0px 1px #737373; }
 
 .c-Section {
   min-height: 100vh; }
@@ -703,6 +791,30 @@ input[type='email'].o-Form-control:focus {
   background-position: center;
   width: 1em;
   height: 1em; }
+
+.c-Section--green .c-Section__content p {
+  color: aliceblue; }
+
+.c-Section__txt-left {
+  text-align: left; }
+
+.c-Section-txt__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: column;
+  font-size: 14px; }
+
+.c-Section-txt__wrapper--flx-row {
+  flex-flow: row nowrap; }
+
+.c-Section-txt__wrapper h3 {
+  color: #333;
+  font-weight: 500; }
+
+.c-Section-txt__wrapper--flx-row h3 {
+  padding-right: .75em;
+  font-size: 14px; }
 
 .c-Main-nav {
   padding-top: 1em;

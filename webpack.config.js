@@ -17,7 +17,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './index.html',
+      template: './views/vote-success.html',
     }),
     new VueLoaderPlugin(),
     new webpack.HotModuleReplacementPlugin(),

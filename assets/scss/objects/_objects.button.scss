@@ -84,6 +84,7 @@ a#{$o-name}-link.o-Icon--link {
 
 #{$o-name}--hyperion:hover > span > span {
 	animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
+    color: white !important;
 }
 
 @keyframes MoveUpInitial {
@@ -137,4 +138,26 @@ input[type='email'].o-Form-control {
 input[type='email'].o-Form-control:focus {
     outline: none;
     border-bottom-color: #909090;
+}
+
+#{$o-name}:disabled:before {
+    background-color: #b0afaf !important;
+    cursor: not-allowed;
+}
+
+#{$o-name}:disabled:hover {
+    transform: none;
+    transform-origin: initial;
+    animation: none
+}
+
+.o-Form-invalid {
+    color: red;
+    text-align: left;
+}
+
+.c-Section--blue .o-Form-invalid {
+    color: #f01c1c;
+    text-align: left;
+    text-shadow: 1px 0px 1px #737373;
 }

@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="/assets/css/home.css?v=2021040301">
 </head>
 <body>
-    <!-- <div id="app"></div> -->
-    <div class="c-Section c-Home">
+    
+    <div id="app" class="c-Section c-Home">
         <div class="c-Main-nav c-Main-nav c-Main-nav--plain">
             <div class="c-Main-nav__logo">
                 <div class="c-Main-nav-img__logo">
@@ -50,16 +50,21 @@
                 <h3>Verification code on your email</h3>
                 <p>We'll send verification link to your email id.</p>
             </div>
-            <div class="o-Form">
-                <div class="o-Form-field__wrapper">
-                    <input type="email" autocomplete="off" id="email" name="email" class="o-Form-control" placeholder="Enter your email id here..">
-                </div>
-                <div class="o-Form-button__wrapper">
-                    <button type="button" class="o-Btn o-Btn--animate o-Btn--hyperion">
-                        <span><span>Send Verification Code</span></span>
-                    </button>
-                </div>
-            </div>            
+            <email-validation inline-template>
+                <form id="emailForm" @submit.prevent="submitEmail" novalidate method="POST" action="/email-validation/" class="o-Form">
+                    <div class="o-Form-field__wrapper">
+                        <input type="email" v-model="emailToVerify" autocomplete="off" id="email" name="email" class="o-Form-control" placeholder="Enter your email id here..">
+                        <div v-cloak class="o-Form-invalid" v-if="!isValid && formSubmitted">
+                            <p>Please enter a valid email id.</p>
+                        </div>
+                    </div>
+                    <div class="o-Form-button__wrapper">
+                        <button type="submit" class="o-Btn o-Btn--animate o-Btn--hyperion">
+                            <span><span>Send Verification Code</span></span>
+                        </button>
+                    </div>
+                </form>
+            </email-validation>
         </div>
     </div>
     <script src="/dist/main.js?v=2021040301"></script>

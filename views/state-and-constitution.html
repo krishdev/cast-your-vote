@@ -42,34 +42,37 @@
                 </ul>
             </div>
 
-            <div class="c-Section__container">
-                <div class="c-Section__img-wrapper">
-                    <div class="c-Section__img c-Section__img--state-emblem"></div>
-                </div>
-                <div class="c-Section__field-icon">
-                    <div class="c-Section-field__label">
-                        Select your state
+            <state-validation inline-template>
+                <div class="c-Section__container">
+                    <div class="c-Section__img-wrapper">
+                        <div class="c-Section__img c-Section__img--state-emblem"></div>
                     </div>
-                </div>
-                <div class="c-Section__multiselect">
-                    <multiselect v-model="form.state" :options="allStates" track-by="state" label="fullName" :searchable="true" :close-on-select="true" :show-labels="false" placeholder="Pick a state"></multiselect>
-                </div>
-                <div v-cloak v-if="form.state" class="c-Section__field-icon">
-                    <div class="c-Section-field__label">
-                        Select your constitution
+                    <div class="c-Section__field-icon">
+                        <div class="c-Section-field__label">
+                            Select your state
+                        </div>
                     </div>
+                    <div class="c-Section__multiselect">
+                        <multiselect v-model="form.state" :options="allStates" track-by="state" label="fullName" :searchable="true" :close-on-select="true" :show-labels="false" placeholder="Pick a state"></multiselect>
+                    </div>
+                    <div v-cloak v-if="form.state" class="c-Section__field-icon">
+                        <div class="c-Section-field__label">
+                            Select your constitution
+                        </div>
+                    </div>
+                    <div v-cloak v-if="form.state" class="c-Section__multiselect">
+                        <multiselect v-model="form.constitution" :options="allConstitutions" :searchable="true" :close-on-select="true" :show-labels="false" placeholder="Search your constitution"></multiselect>
+                    </div>
+                    <button v-cloak v-if="form.state && form.constitution" type="button" class="o-Btn o-Btn--animate o-Btn--blue o-Btn--hyperion">
+                        <span>
+                            <span>Go to the Booth</span>
+                        </span>
+                    </button>
                 </div>
-                <div v-cloak v-if="form.state" class="c-Section__multiselect">
-                    <multiselect v-model="form.constitution" :options="allConstitutions" :searchable="true" :close-on-select="true" :show-labels="false" placeholder="Search your constitution"></multiselect>
-                </div>
-                <button v-cloak v-if="form.state && form.constitution" type="button" class="o-Btn o-Btn--animate o-Btn--blue o-Btn--hyperion">
-                    <span>
-                        <span>Go to the Booth</span>
-                    </span>
-                </button>
-            </div>
+            </state-validation>
         </div>
     </div>
+    <!-- <script src="/dist/main.js?v=2021040301"></script> -->
     <script src="/assets/scripts/svg4everybody.min.js?v=2021040301"></script>
     
 </body>
