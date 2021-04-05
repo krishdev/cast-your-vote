@@ -6,7 +6,8 @@ Vue.component('email-validation', {
         return {
             emailToVerify: '',
             isValid: '',
-            formSubmitted: false
+            formSubmitted: false,
+            emailSaved: false
         }
     },
     created () {
@@ -32,6 +33,20 @@ Vue.component('email-validation', {
                 isValid = regx.test(this.emailToVerify);
             }
             this.isValid = isValid;
+        },
+        saveEmailId () {
+            this.formSubmitted = true;
+            this.checkEmail();
+            if (this.isValid) {
+                this.$http.post('/api/save-email/', {
+                    emailAddress: this.emailToVerify
+                }).then(res => {
+                    const responseBody = res.body;
+                    this.emailSaved = true;
+                    this.emailToVerify = "";
+                    this.formSubmitted = false;
+                })
+            }
         }
     }
 })

@@ -119,7 +119,7 @@ $c-name: '.c-Main-nav';
     justify-content: space-between;
     width: 100%;
 
-    @include breakpoint ($bp-medium) {
+    @include breakpoint ($bp-large) {
         width: auto;
     }
 }

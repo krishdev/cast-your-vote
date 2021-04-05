@@ -6,11 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, shrink-to-fit=no">
     <!-- META OG IMAGES -->
-    <title>2021 Assembly Elections - ElectYourFuture</title>
-    <meta name="description" content="Safe and secure website to poll your votes online for the upcomning Indian Assembly elections.">
-    <meta name="keywords" content="online election polling, tn election, tamilnadu election, pondicherry election, online voting">
+    <meta property="og:image" content="https://electyourfuture.com/assets/og-images/thumbnail-square.jpg" />
+    <meta property="og:image" content="https://electyourfuture.com/assets/og-images/thumbnail-wide.jpg" />
+    <meta property="og:type" content="website" />
+    <title>Step 1 - 2021 Assembly Elections - ElectYourFuture</title>
+    <meta name="description" content="Step 1 to start the survey of Indian Assembly elections.">
+    <meta name="keywords" content="online step 1 to start the survey of Indian Assembly elections., tn election, tamilnadu election, pondicherry election, online voting">
     <link rel="stylesheet" href="/assets/css/common.css?v=2021040301">
     <link rel="stylesheet" href="/assets/css/home.css?v=2021040301">
+    <script th:inline="javascript">
+        var glObj = {
+            states: /*[[${states}]]*/
+        };
+    </script>
 </head>
 <body>
     <div id="app">
@@ -53,26 +61,31 @@
                         </div>
                     </div>
                     <div class="c-Section__multiselect">
-                        <multiselect v-model="form.state" :options="allStates" track-by="state" label="fullName" :searchable="true" :close-on-select="true" :show-labels="false" placeholder="Pick a state"></multiselect>
+                        <multiselect v-model="form.state" :options="allStates" track-by="id" label="description" :searchable="true" :close-on-select="true" :show-labels="false" placeholder="Pick a state"></multiselect>
                     </div>
                     <div v-cloak v-if="form.state" class="c-Section__field-icon">
                         <div class="c-Section-field__label">
-                            Select your constitution
+                            Select your constituency
                         </div>
                     </div>
                     <div v-cloak v-if="form.state" class="c-Section__multiselect">
-                        <multiselect v-model="form.constitution" :options="allConstitutions" :searchable="true" :close-on-select="true" :show-labels="false" placeholder="Search your constitution"></multiselect>
+                        <multiselect v-model="form.constitution" @search-change="getConstituions" :options="allConstitutions" track-by="id" label="constituencies" :searchable="true" :close-on-select="true" :show-labels="false" placeholder="Search your constituency">
+                            <template slot="noOptions">Type your constituency or district.</template>
+                        </multiselect>
                     </div>
-                    <button v-cloak v-if="form.state && form.constitution" type="button" class="o-Btn o-Btn--animate o-Btn--blue o-Btn--hyperion">
-                        <span>
-                            <span>Go to the Booth</span>
-                        </span>
-                    </button>
+                    <form action="/your-state-and-constitution/" method="POST">
+                        <input type="hidden" name="constitutionId" :value="form.constitution.id">
+                        <button v-cloak v-if="form.state && form.state.id && form.constitution && form.constitution.id" type="submit" class="o-Btn o-Btn--animate o-Btn--blue o-Btn--hyperion">
+                            <span>
+                                <span>Go to the Booth</span>
+                            </span>
+                        </button>
+                    </form>
                 </div>
             </state-validation>
         </div>
     </div>
-    <script src="/dist/main.js?v=2021040301"></script>
+    <script src="/assets/dist/main.js?v=2021040302"></script>
     <script src="/assets/scripts/svg4everybody.min.js?v=2021040301"></script>
     
 </body>

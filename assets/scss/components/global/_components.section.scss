@@ -51,6 +51,18 @@ $c-name: '.c-Section';
     background-image: url("/assets/images/meta/logo-white.png");
 }
 
+#{$c-name}__img--logo-blue {
+    background-image: url("/assets/images/meta/logo.png");
+}
+
+#{$c-name}__img--announcement {
+    background-image: url("/assets/images/page-view/result-announcement.png");
+}
+
+#{$c-name}__img--about-us {
+    background-image: url("/assets/images/page-view/about-us.png");
+}
+
 
 #{$c-name}__img {
     background-size: contain;
@@ -126,7 +138,8 @@ $c-name: '.c-Section';
     transition: .3s ease all;
 }
 
-.c-Section__img--logo {
+.c-Section__img--logo,
+.c-Section__img--logo-blue {
     height: 5em;
     width: 11em;
 }
@@ -184,4 +197,9 @@ $c-name: '.c-Section';
 .c-Section-txt__wrapper--flx-row h3 {
     padding-right: .75em;
     font-size: 14px;
+}
+
+.c-Section-txt__wrapper--plain a {
+    color: #159be9;
+    text-decoration: underline;
 }

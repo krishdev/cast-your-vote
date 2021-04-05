@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, shrink-to-fit=no">
     <!-- META OG IMAGES -->
-    <title>Verify email address - 2021 Assembly Elections - ElectYourFuture</title>
-    <meta name="description" content="Safe and secure website to poll your votes online for the upcomning Indian Assembly elections.">
-    <meta name="keywords" content="online election polling, tn election, tamilnadu election, pondicherry election, online voting">
+    <meta property="og:image" content="https://electyourfuture.com/assets/og-images/thumbnail-square.jpg" />
+    <meta property="og:image" content="https://electyourfuture.com/assets/og-images/thumbnail-wide.jpg" />
+    <meta property="og:type" content="website" />
+    <title>Successfully casted online survey - 2021 Assembly Elections - ElectYourFuture</title>
+    <meta name="description" content="Casted your vote in online survey for the 2021 Indian Assembly election.">
+    <meta name="keywords" content="vote casted in online election polling survey, tn election, tamilnadu election, pondicherry election, online voting">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="/assets/css/common.css?v=2021040301">
     <link rel="stylesheet" href="/assets/css/home.css?v=2021040301">
@@ -20,6 +23,8 @@
             display: flex;
             list-style: none;
             padding: 0;
+            position: relative;
+            left: -30px;
         }
         .social_share li + li {
             margin-left: 8px;
@@ -60,12 +65,16 @@
             background: #dd4b39;
         }
 
-        .linkedin {
-            background: #0077b5;
+        .email {
+            background: #be4bdb;
         }
 
-        .pinterest {
-            background: #cb2027;
+        .instagram {
+            background-color: #5d47da;
+        }
+
+        .whatsapp {
+            background-color: #00ca71;
         }
     </style>
 </head>
@@ -118,18 +127,21 @@
                     <p>April 18, 2021</p>
                 </div>
             </div>
+            <div class="c-Section__content">
+                <p style="margin-bottom: 0;color: #333;">Share it on your profile/group and feel proud.</p>
+            </div>
             <div class="c-Section__share">
                 <ul class="social_share">
-                    <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a class="googleplus" href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                    <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li><a class="pinterest" href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                    <li><a class="facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://electyourfuture.com/results/&quote=I have casted my vote online. It's your turn now.&hashtag=%23electYourFuture"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a class="twitter" target="_blank" href="https://twitter.com/share?url=https://electyourfuture.com/results/&text=I have casted my vote online. It's your turn now.&hashtags=electYourFuture,2021TNelection"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="whatsapp" target="_blank" href="https://web.whatsapp.com/send?text=https://electyourfuture.com/results/"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a class="email" target="_blank" href="mailto:?subject=Tamil Nadu Election cast your vote online&body=I have casted my vote online. It's your turn now."><i class="fa fa-at"></i></a></li>
+                    <li><a class="instagram copy copy-animated" href="#" @click.prevent="clickToCopy"><i class="far fa-copy"></i></a></li>
                 </ul>
             </div>
         </div>
     </div>
-    <script src="/dist/main.js?v=2021040301"></script>
+    <script src="/assets/dist/main.js?v=2021040301"></script>
     <script src="/assets/scripts/svg4everybody.min.js?v=2021040301"></script>
     
 </body>

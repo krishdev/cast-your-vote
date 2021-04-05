@@ -13,7 +13,7 @@ new Vue({
   },
   //render: h => h(App),
   data: {
-    allCandidates: [],
+    allCandidates: window.glObj?.parties || [],
     name: 'world',
     state: window.glObj?.state,
     constituencyId: window.glObj?.constituencyId,
@@ -22,7 +22,6 @@ new Vue({
     isValid: false
   },
   created () {
-    this.getCandidates();
   },
   mounted () {
     if (window.voteSuccess) {
@@ -40,11 +39,6 @@ new Vue({
     }
   },
   methods: {
-    getCandidates () {
-      this.$http.get('/data/statest-and-constitutions.json').then(res=> {
-        this.allCandidates = res.body.filter(item => item.state === this.state).map(item => item.majorParties)[0];
-      });
-    },
     voteCasted () {
       this.formSubmitted = true;
       this.checkValid();
@@ -54,6 +48,30 @@ new Vue({
     },
     checkValid () {
       this.isValid = this.voteTo ? true : false;
+    },
+    copyToClipboard(text) {
+      if (window.clipboardData && window.clipboardData.setData) {
+          // IE specific code path to prevent textarea being shown while dialog is visible.
+          return clipboardData.setData("Text", text); 
+  
+      } else if (document.queryCommandSupported && document.queryCommandSupported("copy")) {
+          var textarea = document.createElement("textarea");
+          textarea.textContent = text;
+          textarea.style.position = "fixed";  // Prevent scrolling to bottom of page in MS Edge.
+          document.body.appendChild(textarea);
+          textarea.select();
+          try {
+              return document.execCommand("copy");  // Security exception may be thrown by some browsers.
+          } catch (ex) {
+              console.warn("Copy to clipboard failed.", ex);
+              return false;
+          } finally {
+              document.body.removeChild(textarea);
+          }
+      }
+    },
+    clickToCopy () {
+      this.copyToClipboard('https://electyourfuture.com/results/');
     }
   }
 });

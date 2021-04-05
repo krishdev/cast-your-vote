@@ -161,3 +161,34 @@ input[type='email'].o-Form-control:focus {
     text-align: left;
     text-shadow: 1px 0px 1px #737373;
 }
+
+.copy:link,
+.copy:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 1s;
+    position: absolute;
+}
+
+.copy:focus {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.copy::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.copy:focus::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}

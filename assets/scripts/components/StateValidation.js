@@ -8,7 +8,7 @@ Vue.use(VueResource);
 Vue.component('state-validation', {
     data () {
         return {
-            allStates: [],
+            allStates: window.glObj?.states || [],
             allConstitutions: [],
             form: {
                 state: '',
@@ -21,7 +21,7 @@ Vue.component('state-validation', {
         }
     },
     created () {
-        this.getStates();
+        // this.getStates();
     },
     mounted () {
         var $menuIcon = document.querySelector("#hamburger-menu");
@@ -44,32 +44,23 @@ Vue.component('state-validation', {
         });
     },
     watch: {
-        'form.state' () {
-            if (this.form.state) {
-              this.form.constitution = '';
-              this.getConstituions();
-            }
-          }
     },
     methods: {
-        getStates () {
-            this.$http.get('/data/statest-and-constitutions.json').then(res=> {
-              this.allStates = res.body.map(item=> {
-                return {
-                  state: item.state,
-                  fullName: item.stateFullName
-                }
-              });
-            })
-          },
-          getConstituions () {
-            this.$http.get('/data/statest-and-constitutions.json').then(res=> {
-              this.allConstitutions = res.body.filter(item=>item.state === this.form.state.state).map(item=> {
-                const constituencies = item.constituencies.map(item=>`${item.constituency} - ${item.district}`);
-                
-                return constituencies;
-              })[0];
-            })
-          },
+        getConstituions (query) {
+          this.$http.post('/api/get-constitutions/', {
+            state: this.form.state.code,
+            keywords: query
+          }).then(res=> {
+            if (res && res.body && Array.isArray(res.body) && res.body.length)
+            this.allConstitutions = res.body.map(item=> {
+              const constituencies = `${item.constituency} - ${item.district}`;
+              
+              return {
+                id: item.id,
+                constituencies
+              };
+            });
+          })
+        },
     }
 });
